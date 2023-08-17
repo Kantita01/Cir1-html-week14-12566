@@ -1,0 +1,30 @@
+.box1{ /*ถ้าตรงนี้เป็นจุดข้างหน้า ข้างล่างตรง div ใช้ class="" */
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    padding: 10px;  /* ในกรณีที่จะให้ในกรอบเท่ากันหมด */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */ /* พวกนี้ใช้ในกรณีกำหนดให้ในกรอบไม่เท่ากัน */
+
+    margin: 10px;
+    
+    border: 10px solid rgb(212, 0, 255); /* ใช้ในกรณีให้เส้นขอบเท่ากันหมด */
+    border-left: 150px solid rgb(212, 0, 255);
+    /* border-top: 10px solid orange;
+    border-left: 10px solid orange;
+    border-right: 10px solid orange;
+    border-bottom: 10px solid orange; */ /* ใช้ในกรณีกำหนดให้ขอบไม่เท่ากัน */
+}
+#box2{ /*ถ้าตรงนี้เป็น#ข้างหน้า ข้างล่างตรง div ใช้ id="" */
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    padding: 10px;
+
+    margin: 10px;
+
+    border: 10px solid pink;
+    border-left: 150px solid pink;
+}
